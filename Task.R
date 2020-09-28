@@ -17,7 +17,7 @@ matrixcache <- function(x = matrix()) {
 
 
 cacheSolve <- function(x, ...) {
-  inv <- x$getInverse()
+  inv <-$getinverse()
   if (!is.null(inv)) {
     message("getting cached")
     return(inv)
